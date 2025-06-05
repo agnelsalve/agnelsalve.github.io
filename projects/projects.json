@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Pixel Perfect Reporting",
+    "desc": "Pixel perfect reporting and data visualization with Amazon QuickSight",
+    "image": "pixelperfect",
+    "category": "bi",
+    "links": {
+      "view": "https://github.com/agnelsalve15/BSI301-Pixel-perfect-reporting-and-data-visualization-with-Amazon-QuickSight",
+      "code": "https://github.com/agnelsalve15/BSI301-Pixel-perfect-reporting-and-data-visualization-with-Amazon-QuickSight"
+    }
+  },
+  {
+    "name": "BE_projects",
+    "desc": "Random Projects & Experiments from My Undergrad Days (a.k.a. Things I Tried Just for Fun 🚀)",
+    "image": "BE_projects",
+    "category": "data-science",
+    "links": {
+      "view": "https://github.com/agnelsalve/BE_projects",
+      "code": "https://github.com/agnelsalve/BE_projects"
+    }
+  },
+  {
+    "name": "AWS DataWarehouse Archi InsureTech Company",
+    "desc": "Proposed for a POC enabling robust ingestion, transformation, analysis, and visualization pipelines.",
+    "image": "AWS DWH Archi",
+    "category": "data-engg",
+    "links": {
+      "view": "https://github.com/agnelsalve/aws_datawarehouse_archi",
+      "code": "https://github.com/agnelsalve/aws_datawarehouse_archi"
+    }
+  }
+]

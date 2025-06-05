@@ -1,0 +1,18 @@
+{
+  "blogs": [
+    {
+      "title": "🚀 SQL* ('IS') MORE THAN QUERYING.!!",
+      "excerpt": "💡 Ever wondered why SQL (Structured Query Language) is the backbone of Data? Let's break it down! 👇",
+      "image": "../assets/images/sqlpost.png",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/agnelsalve_sql-dataanalytics-dataengineering-activity-7306230120837451777-8sWR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1QbiQB4Q36HwvfAhIWOQl33Lg0NT7Bcmg"
+    },
+    {
+      "title": "Data Engineer vs. Data Analyst",
+      "excerpt": "Same Data, Different Magic!",
+      "image": "../assets/images/medmpost1.png",
+      "platform": "medium",
+      "url": "https://medium.com/@salveagnel/data-engineer-vs-data-analyst-same-data-different-magic-77202a9817cd"
+    }
+  ]
+} 

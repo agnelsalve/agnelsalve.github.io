@@ -1,0 +1,86 @@
+[
+    {
+        "name": "MS SQL",
+        "icon": "assets/images/mssql.png"
+    },
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+    },
+    {
+        "name": "MS Excel",
+        "icon": "assets/images/excel.png"
+    },
+    {
+        "name": "Power BI",
+        "icon": "assets/images/powerbi.png"
+    },
+    {
+        "name": "Apache Hive",
+        "icon": "assets/images/apachehive.svg"
+    },
+    {
+        "name": "Tableau",
+        "icon": "assets/images/tableau.png"
+    },
+    {
+        "name": "QuickSight",
+        "icon": "assets/images/amazon-quicksight.svg"
+    },
+    {
+        "name": "AWS Redshift",
+        "icon": "assets/images/Amazon-Redshift.png"
+    },
+    {
+        "name": "AWS Glue",
+        "icon": "assets/images/Aws-Glue.svg"
+    },
+    {
+        "name": "AWS Athena",
+        "icon": "assets/images/Aws-Athena.svg"
+    },
+    {
+        "name": "Azure Synapse",
+        "icon": "assets/images/azure-synapse-.jpg"
+    },
+    {
+        "name": "ADLS Gen2",
+        "icon": "assets/images/azure-data-lake-storage-logo.png"
+    },
+    {
+        "name": "Azure Blob Storage",
+        "icon": "assets/images/icons8-azure-storage-blob.svg"
+    },
+    {
+        "name": "Apache Spark",
+        "icon": "assets/images/apache_spark_logo_.png"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+    },
+    {
+        "name": "PostgreSQL",
+        "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
+    },
+    {
+        "name": "HTML5",
+        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+    },
+    {
+        "name": "CSS3",
+        "icon": "https://img.icons8.com/color/48/000000/css3.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+    },
+    {
+        "name": "Git VCS",
+        "icon": "https://img.icons8.com/color/48/000000/git.png"
+    },
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+    }    
+]
