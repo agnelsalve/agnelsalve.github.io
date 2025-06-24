@@ -1,4 +1,44 @@
 [
+    {
+    "name": "SAIVA:BE Project",
+    "desc": "TIJER - INTERNATIONAL RESEARCH JOURNAL · Sep 1, 2024",
+    "image": "saiva_certfi",
+    "category": "publ",
+    "links": {
+      "view": "https://tijer.org/tijer/papers/TIJER2409018.pdf",
+      "code": "https://tijer.org/tijer/papers/TIJER2409018.pdf"
+    }
+  },
+      {
+    "name": "Design Patent | IPR",
+    "desc": "The Intelligent Recruitment Management System",
+    "image": "ipr_certfi",
+    "category": "publ",
+    "links": {
+      "view": "https://drive.google.com/file/d/1Jb5q8vp7AB6u4uqoWZaGkFmJTniRp1Ms/view?usp=sharing",
+      "code": "https://drive.google.com/file/d/1Jb5q8vp7AB6u4uqoWZaGkFmJTniRp1Ms/view?usp=sharing"
+    }
+  },
+    {
+    "name": "AWS DataWarehouse Archi InsureTech Company",
+    "desc": "Proposed for a POC enabling robust ingestion, transformation, analysis, and visualization pipelines.",
+    "image": "AWS DWH Archi",
+    "category": "data-engg",
+    "links": {
+      "view": "https://github.com/agnelsalve/aws_datawarehouse_archi/blob/main/README.md",
+      "code": "https://github.com/agnelsalve/aws_datawarehouse_archi"
+    }
+  },
+      {
+    "name": "EDA & DataIngestion on MS-SQl",
+    "desc": "Built a structured SQL-based solution to replace Excel reporting",
+    "image": "eda",
+    "category": "data-engg",
+    "links": {
+      "view": "https://github.com/agnelsalve/EDA-MS-SQL-DataIngestion/blob/main/README.md",
+      "code": "https://github.com/agnelsalve/EDA-MS-SQL-DataIngestion/tree/main"
+    }
+  },
   {
     "name": "Pixel Perfect Reporting",
     "desc": "Pixel perfect reporting and data visualization with Amazon QuickSight",
@@ -17,16 +57,6 @@
     "links": {
       "view": "https://github.com/agnelsalve/BE_projects",
       "code": "https://github.com/agnelsalve/BE_projects"
-    }
-  },
-  {
-    "name": "AWS DataWarehouse Archi InsureTech Company",
-    "desc": "Proposed for a POC enabling robust ingestion, transformation, analysis, and visualization pipelines.",
-    "image": "AWS DWH Archi",
-    "category": "data-engg",
-    "links": {
-      "view": "https://github.com/agnelsalve/aws_datawarehouse_archi",
-      "code": "https://github.com/agnelsalve/aws_datawarehouse_archi"
     }
   }
 ]
