@@ -99,6 +99,7 @@ function showSkills(skills) {
                 <img src=${skill.icon} alt="skill" />
                 <span>${skill.name}</span>
               </div>
+              ${skill.certificate ? `<div class='btns'><a href='${skill.certificate}' class='btn' target='_blank'><i class='fas fa-eye'></i> Certificate</a></div>` : ''}
             </div>`
     });
     skillsContainer.innerHTML = skillHTML;
@@ -236,3 +237,34 @@ srtop.reveal('.experience .timeline .container', { interval: 400 });
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
 srtop.reveal('.contact .container .form-group', { delay: 400 });
+
+async function fetchBlogs() {
+    const response = await fetch('blogs/blogs.json');
+    const data = await response.json();
+    return data.blogs;
+}
+
+function showHomeBlogs(blogs) {
+    const blogsContainer = document.getElementById('blogsHomeContainer');
+    let blogHTML = '';
+    blogs.slice(0, 4).forEach(blog => {
+        blogHTML += `
+        <a href="${blog.url}" target="_blank" class="blog-box">
+          <div class="blog-card">
+            <div class="blog-image">
+              <img draggable="false" src="${blog.image.replace('..', '.')}" alt="${blog.platform} Post" />
+            </div>
+            <div class="blog-content">
+              <h3>${blog.title}</h3>
+              <p>${blog.excerpt}</p>
+            </div>
+          </div>
+        </a>`;
+    });
+    blogsContainer.innerHTML = blogHTML;
+}
+
+// On home page, load blogs if container exists
+if (document.getElementById('blogsHomeContainer')) {
+    fetchBlogs().then(showHomeBlogs);
+}

@@ -5,7 +5,8 @@
     },
     {
         "name": "Python",
-        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+        "icon": "https://img.icons8.com/color/48/000000/python--v1.png",
+        "certificate": "https://www.coursera.org/account/accomplishments/verify/ESTR3NVYLXLM?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
     },
     {
         "name": "MS Excel",
@@ -13,7 +14,8 @@
     },
     {
         "name": "Power BI",
-        "icon": "assets/images/powerbi.png"
+        "icon": "assets/images/powerbi.png",
+        "certificate": "https://www.coursera.org/account/accomplishments/verify/WMSLNW2PGBYK?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=project"
     },
     {
         "name": "Apache Hive",
@@ -77,7 +79,8 @@
     },
     {
         "name": "Git VCS",
-        "icon": "https://img.icons8.com/color/48/000000/git.png"
+        "icon": "https://img.icons8.com/color/48/000000/git.png",
+        "certificate": "https://www.linkedin.com/learning/certificates/45ce98a28cd44c5cd66ab163b90e7e2bd9ecb24160c6c818de625a2a37ff1223?u=74653650"
     },
     {
         "name": "GitHub",

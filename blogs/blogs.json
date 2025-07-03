@@ -8,6 +8,13 @@
       "url": "https://www.linkedin.com/posts/agnelsalve_sql-dataanalytics-dataengineering-activity-7306230120837451777-8sWR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1QbiQB4Q36HwvfAhIWOQl33Lg0NT7Bcmg"
     },
     {
+      "title": "AWS Summit Mumbai 2025",
+      "excerpt": "At AWS Summit Mumbai 2025—Accelerating the Future with Cloud, Automation & GenAI",
+      "image": "../assets/images/aws_blog.png",
+      "platform": "medium",
+      "url": "https://medium.com/@salveagnel/️-why-attending-the-aws-summit-mumbai-2025-was-totally-worth-it-6a36df8a4a27"
+    },
+    {
       "title": "Data Engineer vs. Data Analyst",
       "excerpt": "Same Data, Different Magic!",
       "image": "../assets/images/medmpost1.png",
@@ -15,4 +22,4 @@
       "url": "https://medium.com/@salveagnel/data-engineer-vs-data-analyst-same-data-different-magic-77202a9817cd"
     }
   ]
-} 
+}

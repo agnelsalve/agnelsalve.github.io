@@ -529,6 +529,28 @@ header .navbar ul li a:hover {
   font-family: "Poppins";
   margin-left: 0.5rem;
 }
+.skills .container .bar .btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.skills .container .bar .btns .btn {
+  background: #d6d7e3;
+  color: #012970;
+  padding: 0.7rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0 0.5rem;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.skills .container .bar .btns .btn:hover {
+  background: #c4c6da;
+  color: #000000;
+}
 /* skills media queries starts*/
 @media screen and (max-width: 600px) {
   .skills .container {
