@@ -19,6 +19,16 @@
       "code": "https://drive.google.com/file/d/1Jb5q8vp7AB6u4uqoWZaGkFmJTniRp1Ms/view?usp=sharing"
     }
   },
+     {
+    "name": "FraudDetection_Insurance",
+    "desc": "End-to-end ML project that detects potentially fraudulent insurance claims using a real-world style pipeline.",
+    "image": "ai",
+    "category": "data-science",
+    "links": {
+      "view": "https://github.com/agnelsalve/FraudDetection_Insurance/blob/main/README.md",
+      "code": "https://github.com/agnelsalve/FraudDetection_Insurance"
+    }
+  },
     {
     "name": "AWS DataWarehouse Archi InsureTech Company",
     "desc": "Proposed for a POC enabling robust ingestion, transformation, analysis, and visualization pipelines.",

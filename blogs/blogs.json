@@ -1,11 +1,11 @@
 {
   "blogs": [
     {
-      "title": "🚀 SQL* ('IS') MORE THAN QUERYING.!!",
-      "excerpt": "💡 Ever wondered why SQL (Structured Query Language) is the backbone of Data? Let's break it down! 👇",
-      "image": "../assets/images/sqlpost.png",
+      "title": "🥳One month down in Northeastern, Boston",
+      "excerpt": "☕️Surviving the grad school hustle with more caffeine than is probably legal.",
+      "image": "assets/images/linkpostic.png",
       "platform": "linkedin",
-      "url": "https://www.linkedin.com/posts/agnelsalve_sql-dataanalytics-dataengineering-activity-7306230120837451777-8sWR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1QbiQB4Q36HwvfAhIWOQl33Lg0NT7Bcmg"
+      "url": "https://www.linkedin.com/posts/agnelsalve_northeasternuniversity-dataengineering-boston-activity-7378775666898407424-6UeC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1QbiQB4Q36HwvfAhIWOQl33Lg0NT7Bcmg"
     },
     {
       "title": "AWS Summit Mumbai 2025",
@@ -13,6 +13,13 @@
       "image": "../assets/images/aws_blog.png",
       "platform": "medium",
       "url": "https://medium.com/@salveagnel/️-why-attending-the-aws-summit-mumbai-2025-was-totally-worth-it-6a36df8a4a27"
+    },
+    {
+      "title": "“power bi is just a visualisation tool...”",
+      "excerpt": "Power BI isn’t just charts — it’s data modeling, DAX wizardry, and late-night troubleshooting disguised as analytics.",
+      "image": "assets/images/powerbipost.png",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/agnelsalve_powerbi-dax-powerquery-activity-7349392085503881217-pj7M?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1QbiQB4Q36HwvfAhIWOQl33Lg0NT7Bcmg"
     },
     {
       "title": "Data Engineer vs. Data Analyst",

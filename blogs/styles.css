@@ -136,30 +136,37 @@
 
 .viewall .btn {
   position: relative;
-  display: inline-block;
-  padding: 1rem 3rem;
-  font-size: 1.6rem;
-  text-transform: uppercase;
-  color: var(--white);
-  background: var(--main-color);
-  border-radius: 5px;
-  transition: all 0.3s ease;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  line-height: 0;
+  padding: 1.6rem 3rem;
+  border-radius: 0.5em;
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  border: 2px solid #fff;
+  box-shadow: 0px 5px 10px rgba(65, 84, 241, 0.4);
+  text-align: center;
+  background: var(--primary-color);
 }
 
 .viewall .btn span {
-  font-weight: 400;
-  margin-left: 0.7rem;
+  font-weight: 600;
+  font-size: 1.7rem;
+  font-family: "Nunito", sans-serif;
 }
 
 .viewall .btn i {
-  margin: 0 0.5rem;
-  font-size: 1.6rem;
+  margin-left: 0.3rem;
+  font-size: 1.5rem;
+  transition: 0.3s;
 }
 
 .viewall .btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  color: #000;
+}
+
+.viewall .btn:hover i {
+  transform: translateX(5px);
 }
 
 /* Responsive design */
