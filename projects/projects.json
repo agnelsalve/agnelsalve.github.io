@@ -29,6 +29,26 @@
       "code": "https://github.com/agnelsalve/FraudDetection_Insurance"
     }
   },
+      {
+    "name": "☕ Cafe Vision – MGEN Hackathon 2025",
+    "desc": "Real-time Productivity & Customer Flow Tracker for Coffee Shop Built in 24 hours during the Plainsight × OpenFilter Computer Vision Hackathon.",
+    "image": "cafe_vision_archi",
+    "category": "data-science",
+    "links": {
+      "view": "https://github.com/agnelsalve/Cafe_vision_MGEN_hackathon_plainsight/blob/main/README.md",
+      "code": "https://github.com/agnelsalve/Cafe_vision_MGEN_hackathon_plainsight"
+    }
+  },
+      {
+    "name": "MedVeritas",
+    "desc": "Drug Effectiveness Prediction from Patient Reviews",
+    "image": "medv",
+    "category": "data-science",
+    "links": {
+      "view": "https://github.com/agnelsalve/MedVeritas",
+      "code": "https://github.com/agnelsalve/MedVeritas/blob/main/README.md"
+    }
+  },
     {
     "name": "AWS DataWarehouse Archi InsureTech Company",
     "desc": "Proposed for a POC enabling robust ingestion, transformation, analysis, and visualization pipelines.",

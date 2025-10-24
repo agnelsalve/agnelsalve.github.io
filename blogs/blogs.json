@@ -1,6 +1,14 @@
 {
   "blogs": [
     {
+      "title": "🚀 Hackathon Weekend: Northeastern University MGEN Dept x Plainsight OpenFilter Challenge 2025",
+      "excerpt": "☕ Built “Cafe Vision” — a real-time AI system that measures productivity & customer engagement inside coffee shops",
+      "image": "assets/images/SS2.png",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/agnelsalve_event-pics-activity-7386146752392814593-wxeU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1QbiQB4Q36HwvfAhIWOQl33Lg0NT7Bcmg"
+    },
+    
+    {
       "title": "🥳One month down in Northeastern, Boston",
       "excerpt": "☕️Surviving the grad school hustle with more caffeine than is probably legal.",
       "image": "assets/images/linkpostic.png",
