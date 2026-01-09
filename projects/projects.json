@@ -19,16 +19,7 @@
       "code": "https://drive.google.com/file/d/1Jb5q8vp7AB6u4uqoWZaGkFmJTniRp1Ms/view?usp=sharing"
     }
   },
-     {
-    "name": "FraudDetection_Insurance",
-    "desc": "End-to-end ML project that detects potentially fraudulent insurance claims using a real-world style pipeline.",
-    "image": "ai",
-    "category": "data-science",
-    "links": {
-      "view": "https://github.com/agnelsalve/FraudDetection_Insurance/blob/main/README.md",
-      "code": "https://github.com/agnelsalve/FraudDetection_Insurance"
-    }
-  },
+
       {
     "name": "☕ Cafe Vision – MGEN Hackathon 2025",
     "desc": "Real-time Productivity & Customer Flow Tracker for Coffee Shop Built in 24 hours during the Plainsight × OpenFilter Computer Vision Hackathon.",
@@ -37,6 +28,16 @@
     "links": {
       "view": "https://github.com/agnelsalve/Cafe_vision_MGEN_hackathon_plainsight/blob/main/README.md",
       "code": "https://github.com/agnelsalve/Cafe_vision_MGEN_hackathon_plainsight"
+    }
+  },
+      {
+    "name": "Book Your Show",
+    "desc": "DAMG6210 - Database Management and Database Design: Event & Ticket Booking System ",
+    "image": "eventbook",
+    "category": "data-engg", 
+    "links": {
+      "view": "https://github.com/agnelsalve/DAMG6210-Event-Booking-System/blob/main/README.md",
+      "code": "https://github.com/agnelsalve/DAMG6210-Event-Booking-System"
     }
   },
       {
@@ -49,6 +50,16 @@
       "code": "https://github.com/agnelsalve/MedVeritas/blob/main/README.md"
     }
   },
+        {
+    "name": "ClariScan",
+    "desc": "AI Voice Radiology Report Summarizer",
+    "image": "clariscan",
+    "category": "data-science",
+    "links": {
+      "view": "https://github.com/agnelsalve/ClariScan",
+      "code": "https://github.com/agnelsalve/ClariScan/blob/main/README.md"
+    }
+  },
     {
     "name": "AWS DataWarehouse Archi InsureTech Company",
     "desc": "Proposed for a POC enabling robust ingestion, transformation, analysis, and visualization pipelines.",
@@ -57,6 +68,27 @@
     "links": {
       "view": "https://github.com/agnelsalve/aws_datawarehouse_archi/blob/main/README.md",
       "code": "https://github.com/agnelsalve/aws_datawarehouse_archi"
+    }
+  },
+          {
+    "name": "F1 AI Race Predictor",
+    "desc": "Advanced Formula 1 race predictions powered by machine learning algorithms and historical data analysis.",
+    "image": "f1",
+    "category": "data-science",
+    "links": {
+      "view": "https://agnelsalve.github.io/f1-race-predictor/",
+      "code": "https://github.com/agnelsalve/f1-race-predictor?tab=readme-ov-file"
+    }
+  },
+
+       {
+    "name": "FraudDetection_Insurance",
+    "desc": "End-to-end ML project that detects potentially fraudulent insurance claims using a real-world style pipeline.",
+    "image": "ai",
+    "category": "data-science",
+    "links": {
+      "view": "https://github.com/agnelsalve/FraudDetection_Insurance/blob/main/README.md",
+      "code": "https://github.com/agnelsalve/FraudDetection_Insurance"
     }
   },
       {

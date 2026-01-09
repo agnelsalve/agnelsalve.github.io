@@ -1,89 +1,64 @@
 [
-    {
-        "name": "MS SQL",
-        "icon": "assets/images/mssql.png"
-    },
-    {
-        "name": "Python",
-        "icon": "https://img.icons8.com/color/48/000000/python--v1.png",
-        "certificate": "https://www.coursera.org/account/accomplishments/verify/ESTR3NVYLXLM?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
-    },
-    {
-        "name": "MS Excel",
-        "icon": "assets/images/excel.png"
-    },
-    {
-        "name": "Power BI",
-        "icon": "assets/images/powerbi.png",
-        "certificate": "https://www.coursera.org/account/accomplishments/verify/WMSLNW2PGBYK?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=project"
-    },
-    {
-        "name": "Apache Hive",
-        "icon": "assets/images/apachehive.svg"
-    },
-    {
-        "name": "Tableau",
-        "icon": "assets/images/tableau.png"
-    },
-    {
-        "name": "QuickSight",
-        "icon": "assets/images/amazon-quicksight.svg"
-    },
-    {
-        "name": "AWS Redshift",
-        "icon": "assets/images/Amazon-Redshift.png"
-    },
-    {
-        "name": "AWS Glue",
-        "icon": "assets/images/Aws-Glue.svg"
-    },
-    {
-        "name": "AWS Athena",
-        "icon": "assets/images/Aws-Athena.svg"
-    },
-    {
-        "name": "Azure Synapse",
-        "icon": "assets/images/azure-synapse-.jpg"
-    },
-    {
-        "name": "ADLS Gen2",
-        "icon": "assets/images/azure-data-lake-storage-logo.png"
-    },
-    {
-        "name": "Azure Blob Storage",
-        "icon": "assets/images/icons8-azure-storage-blob.svg"
-    },
-    {
-        "name": "Apache Spark",
-        "icon": "assets/images/apache_spark_logo_.png"
-    },
-    {
-        "name": "MongoDB",
-        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
-    },
-    {
-        "name": "PostgreSQL",
-        "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
-    },
-    {
-        "name": "HTML5",
-        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
-    },
-    {
-        "name": "CSS3",
-        "icon": "https://img.icons8.com/color/48/000000/css3.png"
-    },
-    {
-        "name": "JavaScript",
-        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
-    },
-    {
-        "name": "Git VCS",
-        "icon": "https://img.icons8.com/color/48/000000/git.png",
-        "certificate": "https://www.linkedin.com/learning/certificates/45ce98a28cd44c5cd66ab163b90e7e2bd9ecb24160c6c818de625a2a37ff1223?u=74653650"
-    },
-    {
-        "name": "GitHub",
-        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-    }    
+    
+    { "name": "Python", "icon": "https://img.icons8.com/color/48/000000/python--v1.png", "certificate": "https://www.coursera.org/account/accomplishments/verify/ESTR3NVYLXLM?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" },
+    { "name": "MS SQL", "icon": "assets/images/mssql.png" },
+    { "name": "Power BI", "icon": "assets/images/powerbi.png", "certificate": "https://www.coursera.org/account/accomplishments/verify/WMSLNW2PGBYK?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=project" },
+    { "name": "Apache Hive", "icon": "assets/images/apachehive.svg" },
+    { "name": "Apache Spark", "icon": "assets/images/apache_spark_logo_.png" },
+    { "name": "Apache Kafka", "icon": "assets/images/kafka.png" },
+    { "name": "Apache Airflow", "icon": "assets/images/airflow.png" },
+    { "name": "Tableau", "icon": "assets/images/tableau.png" },
+    { "name": "Git", "icon": "https://img.icons8.com/color/48/000000/git.png", "certificate": "https://www.linkedin.com/learning/certificates/45ce98a28cd44c5cd66ab163b90e7e2bd9ecb24160c6c818de625a2a37ff1223?u=74653650" },
+    { "name": "GitHub", "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png" },
+    { "name": "R Lang", "icon": "assets/images/rprog.png" },
+    { "name": "PostgreSQL", "icon": "https://img.icons8.com/color/48/000000/postgreesql.png" },
+    { "name": "MongoDB", "icon": "https://img.icons8.com/color/48/000000/mongodb.png" },
+    { "name": "Snowflake", "icon": "assets/images/snowflake.png" },
+    { "name": "PyTorch", "icon": "assets/images/pytorch.png" },
+    { "name": "TensorFlow", "icon": "https://img.icons8.com/color/48/tensorflow.png" },
+    { "name": "scikit-learn", "icon": "assets/images/scikit-learn.png" },
+    { "name": "LangChain", "icon": "assets/images/langchain.png" },
+    { "name": "Hugging Face", "icon": "assets/images/huggingface.png" },
+    { "name": "OpenCV", "icon": "assets/images/opencv.png" },
+    { "name": "AWS S3", "icon": "assets/images/aws-s3.png" },
+    { "name": "AWS Lambda", "icon": "assets/images/aws-lambda.png" },
+    { "name": "AWS Redshift", "icon": "assets/images/Amazon-Redshift.png" },
+    { "name": "AWS Glue", "icon": "assets/images/Aws-Glue.svg" },
+    { "name": "AWS Athena", "icon": "assets/images/Aws-Athena.svg" },
+    { "name": "Azure Synapse", "icon": "assets/images/azure-synapse-.jpg" },
+    { "name": "Azure Data Factory", "icon": "assets/images/azure-data-factory.png" },
+    { "name": "ADLS Gen2", "icon": "assets/images/azure-data-lake-storage-logo.png" },
+    { "name": "AML Studio", "icon": "assets/images/amlstudio.png" },
+    { "name": "Databricks", "icon": "assets/images/databricks.png" },
+    { "name": "Docker", "icon": "https://img.icons8.com/color/48/docker.png" },
+    { "name": "Streamlit", "icon": "assets/images/streamlit.png" },
+    { "name": "React", "icon": "https://img.icons8.com/color/48/react-native.png" },
+    { "name": "FastAPI", "icon": "assets/images/fastapi.png" },
+    { "name": "Java", "icon": "https://img.icons8.com/color/48/java-coffee-cup-logo.png" },
+    { "name": "JavaScript", "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png" }
+    
+    
+  
+    
+
+    
+  
+
+    
+   
+    
+
+    
+    
+
+
+   
+
+    
+    
+   
+    
+    
+   
+   
 ]
