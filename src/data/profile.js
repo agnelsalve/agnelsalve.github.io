@@ -56,10 +56,15 @@ export const about = {
 };
 
 export const experience = [
+    {
+    company: "Marino Recreation Center, Northeastern University | Boston, MA",
+    role: "Fitness Consultant",
+    period: "Mar 2026 - Present",
+  },
   {
     company: "Probus Insurance Broker Pvt. Ltd. | Mumbai, India",
     role: "Data Analyst - Strategy Team",
-    period: "Mar 2024 - Present",
+    period: "Mar 2024 - Jul 2025",
   },
   {
     company: "APMB Technologies - Kalyan, India",
