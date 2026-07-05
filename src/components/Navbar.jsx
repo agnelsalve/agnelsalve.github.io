@@ -60,16 +60,19 @@ export default function Navbar() {
             <li key={link.id}>
               <a
                 href={`#${link.id}`}
-                className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
-                  active === link.id
-                    ? "text-white"
-                    : "text-muted hover:text-white"
+                className={`group relative px-3 py-2 text-sm font-medium transition-colors ${
+                  active === link.id ? "text-white" : "text-muted hover:text-white"
                 }`}
               >
                 {link.label}
-                {active === link.id && (
-                  <span className="mx-auto mt-0.5 block h-0.5 w-5 rounded-full bg-gradient-to-r from-brand to-accent" />
-                )}
+                {/* Underline is absolutely positioned so it never shifts the label */}
+                <span
+                  className={`pointer-events-none absolute inset-x-3 bottom-0.5 h-0.5 origin-center rounded-full bg-gradient-to-r from-brand to-accent transition-transform duration-300 ${
+                    active === link.id
+                      ? "scale-x-100"
+                      : "scale-x-0 group-hover:scale-x-100"
+                  }`}
+                />
               </a>
             </li>
           ))}

@@ -10,11 +10,13 @@ export default function Section({ id, icon, title, highlight, subtitle, children
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.5 }}
-          className="mb-12 text-center"
+          className="mb-12 flex flex-col items-center text-center"
         >
-          <h2 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">
-            {icon && <span className="mr-2 text-brand-light">{icon}</span>}
-            {title} <span className="gradient-text">{highlight}</span>
+          <h2 className="flex items-center gap-3 font-display text-3xl font-bold tracking-tight sm:text-4xl">
+            {icon && <span className="text-brand-light">{icon}</span>}
+            <span>
+              {title} <span className="gradient-text">{highlight}</span>
+            </span>
           </h2>
           {subtitle && (
             <p className="mx-auto mt-4 max-w-2xl text-sm text-muted sm:text-base">
