@@ -10,13 +10,11 @@
 
   body {
     @apply bg-base text-gray-200 font-sans antialiased;
-    /* Blueprint grid + palette glows — the data-architect backdrop */
+    /* Blueprint grid — the animated glows/pipeline live in <TechBackground /> */
     background-image:
-      radial-gradient(60rem 60rem at 80% -10%, rgba(124, 58, 237, 0.12), transparent 60%),
-      radial-gradient(50rem 50rem at 0% 20%, rgba(34, 211, 238, 0.08), transparent 55%),
       linear-gradient(rgba(124, 58, 237, 0.05) 1px, transparent 1px),
       linear-gradient(90deg, rgba(124, 58, 237, 0.05) 1px, transparent 1px);
-    background-size: 100% 100%, 100% 100%, 32px 32px, 32px 32px;
+    background-size: 32px 32px, 32px 32px;
     background-attachment: fixed;
   }
 
@@ -92,9 +90,76 @@
     }
   }
 
+  /* ===== Animated tech background (TechBackground.jsx) ===== */
+  .tb-flow {
+    stroke-dasharray: 4 14;
+    animation: tb-flow 9s linear infinite;
+  }
+  @keyframes tb-flow {
+    to {
+      stroke-dashoffset: -180;
+    }
+  }
+
+  .tb-node {
+    animation: tb-pulse 3.4s ease-in-out infinite;
+  }
+  @keyframes tb-pulse {
+    0%,
+    100% {
+      opacity: 0.3;
+    }
+    50% {
+      opacity: 0.95;
+    }
+  }
+
+  .tb-blob {
+    position: absolute;
+    border-radius: 9999px;
+    filter: blur(72px);
+  }
+  .tb-blob-1 {
+    width: 34rem;
+    height: 34rem;
+    top: -10rem;
+    right: -6rem;
+    background: radial-gradient(circle, rgba(124, 58, 237, 0.16), transparent 70%);
+    animation: tb-drift-1 26s ease-in-out infinite;
+  }
+  .tb-blob-2 {
+    width: 30rem;
+    height: 30rem;
+    bottom: -8rem;
+    left: -6rem;
+    background: radial-gradient(circle, rgba(34, 211, 238, 0.12), transparent 70%);
+    animation: tb-drift-2 30s ease-in-out infinite;
+  }
+  @keyframes tb-drift-1 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(-4rem, 3rem);
+    }
+  }
+  @keyframes tb-drift-2 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(4rem, -3rem);
+    }
+  }
+
   /* Respect users who prefer less motion */
   @media (prefers-reduced-motion: reduce) {
     .flow-edge,
+    .tb-flow,
+    .tb-node,
+    .tb-blob,
     .animate-float,
     .animate-blink,
     .animate-gradient-x {

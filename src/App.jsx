@@ -1,3 +1,4 @@
+import TechBackground from "./components/TechBackground";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -12,6 +13,7 @@ import ScrollToTop from "./components/ScrollToTop";
 export default function App() {
   return (
     <>
+      <TechBackground />
       <Navbar />
       <main>
         <Hero />
