@@ -31,8 +31,8 @@ export default function Hero() {
           transition={{ duration: 0.7 }}
         >
           <span className="chip mb-5 border-brand/40 font-mono text-xs text-brand-light">
-            <span className="text-accent">$ whoami</span> › data engineer · data
-            scientist · cloud
+            <span className="text-accent">$ whoami</span> › Data Engineer · AI/ML
+            Engineer · Cloud Solutions
           </span>
 
           <h1 className="font-display text-4xl font-extrabold leading-tight sm:text-6xl">

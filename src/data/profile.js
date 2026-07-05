@@ -5,7 +5,7 @@ export const profile = {
   name: "Agnel Salve",
   firstName: "Agnel",
   lastName: "Salve",
-  role: "Data Engineer • Data Scientist • Cloud",
+  role: "Data Engineer • AI/ML Engineer • Cloud Solution Architect",
   // Rotating words for the hero "I am into ..." typing effect
   typingWords: [
     "data analytics",
@@ -96,7 +96,7 @@ export const education = [
     image: "assets/images/neu.png",
     points: [
       "Data Science & Cloud Computing Focus",
-      "Courses - Data Science Engineering Methods and Tools, Data Management And Database Design & Program Structure Algorithms",
+      "Courses - Data Science Engineering Methods & Tools, Data Management And Database Design AND Program Structure Algorithms",
     ],
   },
   {
