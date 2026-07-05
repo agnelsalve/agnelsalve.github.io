@@ -9,7 +9,13 @@ const html = (s) => ({ dangerouslySetInnerHTML: { __html: s } });
 
 export default function About() {
   return (
-    <Section id="about" icon={<FaUserAlt />} title="About" highlight="Me">
+    <Section
+      id="about"
+      icon={<FaUserAlt />}
+      kicker="// 01 — profile"
+      title="About"
+      highlight="Me"
+    >
       <div className="grid gap-10 lg:grid-cols-5">
         {/* Bio */}
         <motion.div

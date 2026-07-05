@@ -9,6 +9,7 @@ export default function Education() {
     <Section
       id="education"
       icon={<FaGraduationCap />}
+      kicker="// 05 — background"
       title="My"
       highlight="Education"
       subtitle="Education is not the learning of facts, but the training of the mind to think."

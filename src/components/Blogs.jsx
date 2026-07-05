@@ -16,6 +16,7 @@ export default function Blogs() {
     <Section
       id="blogs"
       icon={<FaBlog />}
+      kicker="// 06 — writing"
       title="Blogs &"
       highlight="Posts"
       subtitle="Sharing knowledge and experiences through writing is a way to help others grow."

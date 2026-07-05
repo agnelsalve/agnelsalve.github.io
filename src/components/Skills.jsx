@@ -9,6 +9,7 @@ export default function Skills() {
     <Section
       id="skills"
       icon={<FaLaptopCode />}
+      kicker="// 02 — stack"
       title="Skills &"
       highlight="Certifications"
       subtitle="Tools and technologies I work with across the data & cloud stack. Icons with a badge link to a verified certificate."

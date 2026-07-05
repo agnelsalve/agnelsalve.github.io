@@ -6,6 +6,14 @@ import projects from "../data/projects.json";
 import { projectCategories } from "../data/profile";
 import { asset } from "../lib/assets";
 
+const catLabel = {
+  "data-engg": "data-eng",
+  "data-science": "ml/ai",
+  bi: "bi",
+  analytics: "analytics",
+  publ: "publication",
+};
+
 export default function Projects() {
   const [filter, setFilter] = useState("*");
 
@@ -21,6 +29,7 @@ export default function Projects() {
     <Section
       id="work"
       icon={<FaLaptopCode />}
+      kicker="// 04 — build log"
       title="Projects &"
       highlight="Publications"
       subtitle="A selection of projects, hackathons, publications and patents across data engineering, data science and BI."
@@ -61,6 +70,9 @@ export default function Projects() {
                   loading="lazy"
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
+                <span className="tag-mono absolute left-3 top-3 rounded-md border border-line bg-base/80 px-2 py-1 backdrop-blur">
+                  {catLabel[project.category] || project.category}
+                </span>
               </div>
 
               <div className="flex flex-1 flex-col p-5">

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 // Section wrapper with a consistent animated heading.
-export default function Section({ id, icon, title, highlight, subtitle, children }) {
+export default function Section({ id, icon, kicker, title, highlight, subtitle, children }) {
   return (
     <section id={id} className="scroll-mt-20 py-20 sm:py-24">
       <div className="container-page">
@@ -12,6 +12,7 @@ export default function Section({ id, icon, title, highlight, subtitle, children
           transition={{ duration: 0.5 }}
           className="mb-12 flex flex-col items-center text-center"
         >
+          {kicker && <span className="kicker mb-3">{kicker}</span>}
           <h2 className="flex items-center gap-3 font-display text-3xl font-bold tracking-tight sm:text-4xl">
             {icon && <span className="text-brand-light">{icon}</span>}
             <span>

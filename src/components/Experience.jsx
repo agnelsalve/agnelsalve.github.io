@@ -5,7 +5,13 @@ import { experience } from "../data/profile";
 
 export default function Experience() {
   return (
-    <Section id="experience" icon={<FaBriefcase />} title="Work" highlight="Experience">
+    <Section
+      id="experience"
+      icon={<FaBriefcase />}
+      kicker="// 03 — timeline"
+      title="Work"
+      highlight="Experience"
+    >
       <div className="relative mx-auto max-w-3xl">
         {/* Vertical line */}
         <div className="absolute left-4 top-0 h-full w-px bg-gradient-to-b from-brand via-accent to-transparent sm:left-1/2" />
