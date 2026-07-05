@@ -16,7 +16,7 @@ export const profile = {
   ],
   resumeUrl:
     "https://drive.google.com/file/d/1DK-djeu2HaCjUODb8XrBeJPLt1AMxjLC/view?usp=sharing",
-  profileImage: "assets/images/profile.png",
+  profileImage: "public/assets/images/profile2.png",
 
   contact: {
     email: "salve.a@northeastern.edu",
