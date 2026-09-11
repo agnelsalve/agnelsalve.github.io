@@ -67,14 +67,9 @@ export const experience = [
     period: "Mar 2024 - Jul 2025",
   },
   {
-    company: "APMB Technologies - Kalyan, India",
-    role: "Founder's Office - Chief of Staff",
-    period: "Sep 2023 - Mar 2024",
-  },
-  {
     company: "Jio Platforms Ltd. - Reliance - Mumbai, India",
     role: "Assistant Technical Manager (GET) - Analytical & Big Data (COE)",
-    period: "Jul 2022 - Sep 2023",
+    period: "Jul 2022 - Mar 2024",
   },
   {
     company: "Ideal Education and Research Institute | Mumbai, India",
