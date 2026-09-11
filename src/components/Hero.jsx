@@ -30,9 +30,13 @@ export default function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <span className="chip mb-5 border-brand/40 font-mono text-xs text-brand-light">
-            <span className="text-accent">$ whoami</span> › Data Engineer · AI/ML
-            Engineer · Cloud Solutions
+          <span className="chip mb-5 max-w-full border-brand/40 font-mono text-xs text-brand-light">
+            {/* shrink-0 keeps the shell prompt from being squeezed and broken
+                across lines when the role string wraps on narrow screens */}
+            <span className="shrink-0 whitespace-nowrap text-accent">
+              $ whoami
+            </span>
+            <span>› Data Engineer · AI/ML Engineer · Cloud Solutions</span>
           </span>
 
           <h1 className="font-display text-4xl font-extrabold leading-tight sm:text-6xl">

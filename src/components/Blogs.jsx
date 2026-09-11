@@ -41,7 +41,7 @@ export default function Blogs() {
                 loading="lazy"
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
-              <span className="absolute right-3 top-3 grid h-8 w-8 place-items-center rounded-full bg-base/80 text-lg backdrop-blur">
+              <span className="absolute right-3 top-3 grid h-8 w-8 place-items-center rounded-full bg-canvas/80 text-lg backdrop-blur">
                 {platformIcon[blog.platform]}
               </span>
             </div>

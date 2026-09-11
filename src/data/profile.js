@@ -16,7 +16,7 @@ export const profile = {
   ],
   resumeUrl:
     "https://drive.google.com/file/d/1DK-djeu2HaCjUODb8XrBeJPLt1AMxjLC/view?usp=sharing",
-  profileImage: "assets/images/profile2.png",
+  profileImage: "assets/images/profile2.webp",
 
   contact: {
     email: "salve.a@northeastern.edu",
@@ -88,7 +88,7 @@ export const education = [
     degree: "Master of Science in Information Systems",
     school: "College of Engineering | Northeastern University, Boston",
     period: "2025 - 2027",
-    image: "assets/images/neu.png",
+    image: "assets/images/neu.webp",
     points: [
       "Data Science & Cloud Computing Focus",
       "Courses - Data Science Engineering Methods & Tools, Data Management And Database Design AND Program Structure Algorithms",
@@ -98,7 +98,7 @@ export const education = [
     degree: "Bachelor of Engineering in Computer Science",
     school: "Don Bosco Institute of Technology | University of Mumbai",
     period: "2018 - 2022",
-    image: "assets/images/college.jpg",
+    image: "assets/images/college.webp",
     points: [
       "Head Coordinator of Training and Placement Cell",
       "Chapter Head of Idiot's Room Entrepreneurship-Cell",

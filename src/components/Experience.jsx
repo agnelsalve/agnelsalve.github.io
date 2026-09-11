@@ -32,7 +32,7 @@ export default function Experience() {
             >
               {/* Dot */}
               <span
-                className={`absolute top-2 grid h-8 w-8 place-items-center rounded-full border border-brand bg-base text-xs font-bold text-brand-light left-0 ${
+                className={`absolute top-2 grid h-8 w-8 place-items-center rounded-full border border-brand bg-canvas text-xs font-bold text-brand-light left-0 ${
                   i % 2 === 0 ? "sm:-left-4" : "sm:-right-4 sm:left-auto"
                 }`}
               >

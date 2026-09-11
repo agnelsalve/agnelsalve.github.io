@@ -9,7 +9,7 @@
   }
 
   body {
-    @apply bg-base text-gray-200 font-sans antialiased;
+    @apply bg-canvas text-gray-200 font-sans antialiased;
     /* Blueprint grid — the animated glows/pipeline live in <TechBackground /> */
     background-image:
       linear-gradient(rgba(124, 58, 237, 0.05) 1px, transparent 1px),
@@ -27,7 +27,7 @@
     width: 10px;
   }
   ::-webkit-scrollbar-track {
-    @apply bg-base;
+    @apply bg-canvas;
   }
   ::-webkit-scrollbar-thumb {
     @apply bg-line rounded-full;

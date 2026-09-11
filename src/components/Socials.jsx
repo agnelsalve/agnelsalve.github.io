@@ -22,7 +22,7 @@ export default function Socials({ className = "" }) {
         >
           {iconMap[s.icon] || (
             <img
-              src={asset("assets/images/topmate.png")}
+              src={asset("assets/images/topmate.webp")}
               alt={s.name}
               className="h-5 w-5"
             />

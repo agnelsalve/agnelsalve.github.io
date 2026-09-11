@@ -4,8 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Dark, sleek palette
-        base: "#0a0a0f",
+        // Dark, sleek palette.
+        // NOTE: do not name a color "base" — Tailwind already ships `text-base`
+        // as a font-size utility, and a color of the same name generates a
+        // second `.text-base` rule that silently overrides text color.
+        canvas: "#0a0a0f",
         surface: "#12121a",
         card: "#161622",
         line: "#26263a",

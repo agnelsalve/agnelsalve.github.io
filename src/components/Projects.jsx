@@ -65,12 +65,12 @@ export default function Projects() {
             >
               <div className="relative aspect-video overflow-hidden bg-surface">
                 <img
-                  src={asset(`assets/images/projects/${project.image}.png`)}
+                  src={asset(`assets/images/projects/${project.image}.webp`)}
                   alt={project.name}
                   loading="lazy"
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-                <span className="tag-mono absolute left-3 top-3 rounded-md border border-line bg-base/80 px-2 py-1 backdrop-blur">
+                <span className="tag-mono absolute left-3 top-3 rounded-md border border-line bg-canvas/80 px-2 py-1 backdrop-blur">
                   {catLabel[project.category] || project.category}
                 </span>
               </div>
