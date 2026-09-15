@@ -43,13 +43,13 @@ export default function Navbar() {
   return (
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
-        scrolled ? "glass shadow-lg" : "bg-transparent"
+        scrolled ? "glass-light shadow-lg" : "bg-transparent"
       }`}
     >
       <nav className="container-page flex h-16 items-center justify-between">
         <a
           href="#home"
-          className="font-display text-lg font-bold tracking-tight text-white"
+          className="font-display text-lg font-bold tracking-tight text-ink"
         >
           Agnel<span className="gradient-text">Salve</span>
         </a>
@@ -61,7 +61,7 @@ export default function Navbar() {
               <a
                 href={`#${link.id}`}
                 className={`group relative px-3 py-2 text-sm font-medium transition-colors ${
-                  active === link.id ? "text-white" : "text-muted hover:text-white"
+                  active === link.id ? "text-ink" : "text-muted hover:text-ink"
                 }`}
               >
                 {link.label}
@@ -79,7 +79,7 @@ export default function Navbar() {
         </ul>
 
         <button
-          className="text-2xl text-white md:hidden"
+          className="text-2xl text-ink md:hidden"
           onClick={() => setOpen((o) => !o)}
           aria-label="Toggle menu"
         >
@@ -89,7 +89,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="glass border-t border-line md:hidden">
+        <div className="glass-light border-t border-line md:hidden">
           <ul className="container-page flex flex-col py-3">
             {links.map((link) => (
               <li key={link.id}>
@@ -98,8 +98,8 @@ export default function Navbar() {
                   onClick={() => setOpen(false)}
                   className={`block rounded-lg px-3 py-2.5 text-sm font-medium ${
                     active === link.id
-                      ? "bg-card text-white"
-                      : "text-muted hover:text-white"
+                      ? "bg-surface text-ink"
+                      : "text-muted hover:text-ink"
                   }`}
                 >
                   {link.label}

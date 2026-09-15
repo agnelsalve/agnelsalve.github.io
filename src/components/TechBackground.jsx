@@ -35,19 +35,19 @@ export default function TechBackground() {
 
       {/* pipeline network */}
       <svg
-        className="absolute inset-0 h-full w-full opacity-[0.3]"
+        className="absolute inset-0 h-full w-full opacity-[0.45]"
         viewBox="0 0 1440 900"
         preserveAspectRatio="xMidYMid slice"
       >
         <defs>
           <linearGradient id="tbEdge" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0" stopColor="#7c3aed" />
-            <stop offset="1" stopColor="#22d3ee" />
+            <stop offset="0" stopColor="#3a4149" />
+            <stop offset="1" stopColor="#14181e" />
           </linearGradient>
         </defs>
 
         {/* base traces (static, very faint) */}
-        <g stroke="#26263a" strokeWidth="1" fill="none">
+        <g stroke="#cfd3d9" strokeWidth="1" fill="none">
           {traces.map((d, i) => (
             <path key={`b${i}`} id={`trace-${i}`} d={d} />
           ))}
@@ -61,7 +61,7 @@ export default function TechBackground() {
         </g>
 
         {/* pulsing nodes */}
-        <g fill="#22d3ee">
+        <g fill="#14181e">
           {nodes.map(([cx, cy], i) => (
             <circle
               key={i}
@@ -77,7 +77,7 @@ export default function TechBackground() {
         {/* traveling packets */}
         <g>
           {packets.map((_, i) => (
-            <circle key={i} r="2.6" fill="#a78bfa" className="tb-packet">
+            <circle key={i} r="2.6" fill="#3a4149" className="tb-packet">
               <animateMotion dur={`${10 + i * 2}s`} repeatCount="indefinite" begin={`${i * 1.5}s`}>
                 <mpath href={`#trace-${i}`} />
               </animateMotion>

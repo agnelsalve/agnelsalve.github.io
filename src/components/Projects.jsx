@@ -43,7 +43,7 @@ export default function Projects() {
             className={`rounded-full px-4 py-2 text-sm font-medium transition-all duration-300 ${
               filter === cat.key
                 ? "bg-gradient-to-r from-brand to-accent text-white shadow-glow"
-                : "border border-line bg-card/50 text-muted hover:border-brand hover:text-white"
+                : "border border-cardline bg-card text-oncard-muted hover:border-oncard-muted hover:text-oncard"
             }`}
           >
             {cat.label}
@@ -61,7 +61,7 @@ export default function Projects() {
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.95 }}
               transition={{ duration: 0.3 }}
-              className="group flex flex-col overflow-hidden rounded-2xl border border-line bg-card/50 transition-all duration-300 hover:-translate-y-1.5 hover:border-brand hover:shadow-glow"
+              className="group flex flex-col overflow-hidden rounded-2xl border border-cardline bg-card transition-all duration-300 hover:-translate-y-1.5 hover:border-oncard-muted hover:shadow-glow"
             >
               <div className="relative aspect-video overflow-hidden bg-surface">
                 <img
@@ -70,16 +70,16 @@ export default function Projects() {
                   loading="lazy"
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-                <span className="tag-mono absolute left-3 top-3 rounded-md border border-line bg-canvas/80 px-2 py-1 backdrop-blur">
+                <span className="tag-mono absolute left-3 top-3 rounded-md border border-cardline bg-card/85 px-2 py-1 backdrop-blur">
                   {catLabel[project.category] || project.category}
                 </span>
               </div>
 
               <div className="flex flex-1 flex-col p-5">
-                <h3 className="font-display text-base font-semibold text-white">
+                <h3 className="font-display text-base font-semibold text-oncard">
                   {project.name}
                 </h3>
-                <p className="mt-2 flex-1 text-sm leading-relaxed text-muted">
+                <p className="mt-2 flex-1 text-sm leading-relaxed text-oncard-muted">
                   {project.desc}
                 </p>
 
@@ -88,7 +88,7 @@ export default function Projects() {
                     href={project.links.view}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex flex-1 items-center justify-center gap-2 rounded-lg bg-brand/15 px-3 py-2 text-xs font-semibold text-brand-light transition-colors hover:bg-brand hover:text-white"
+                    className="inline-flex flex-1 items-center justify-center gap-2 rounded-lg bg-white/10 px-3 py-2 text-xs font-semibold text-oncard transition-colors hover:bg-oncard hover:text-ink"
                   >
                     <FaEye /> View
                   </a>
@@ -96,7 +96,7 @@ export default function Projects() {
                     href={project.links.code}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex flex-1 items-center justify-center gap-2 rounded-lg border border-line px-3 py-2 text-xs font-semibold text-gray-300 transition-colors hover:border-accent hover:text-white"
+                    className="inline-flex flex-1 items-center justify-center gap-2 rounded-lg border border-cardline px-3 py-2 text-xs font-semibold text-oncard-soft transition-colors hover:border-oncard-muted hover:text-oncard"
                   >
                     <FaCode /> Code
                   </a>

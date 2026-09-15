@@ -9,17 +9,17 @@
   }
 
   body {
-    @apply bg-canvas text-gray-200 font-sans antialiased;
+    @apply bg-canvas text-ink-soft font-sans antialiased;
     /* Blueprint grid — the animated glows/pipeline live in <TechBackground /> */
     background-image:
-      linear-gradient(rgba(124, 58, 237, 0.05) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(124, 58, 237, 0.05) 1px, transparent 1px);
+      linear-gradient(rgba(20, 24, 30, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(20, 24, 30, 0.06) 1px, transparent 1px);
     background-size: 32px 32px, 32px 32px;
     background-attachment: fixed;
   }
 
   ::selection {
-    @apply bg-brand/40 text-white;
+    @apply bg-brand/25 text-ink;
   }
 
   /* Custom scrollbar */
@@ -43,12 +43,20 @@
   }
 
   .gradient-text {
-    @apply bg-gradient-to-r from-brand-light via-accent to-brand-light bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-brand via-accent to-brand bg-clip-text text-transparent;
     background-size: 200% auto;
   }
 
+  /* Dark card on the light page. Sets a light default text colour so
+     descendants inherit it instead of each one needing an override. */
   .glass {
-    @apply border border-line/70 bg-card/60 backdrop-blur-md;
+    @apply border border-cardline bg-card text-oncard-soft;
+  }
+
+  /* Light translucent bar — used by the navbar, which must stay legible
+     against the page rather than inverting like the cards. */
+  .glass-light {
+    @apply border border-line/70 bg-canvas/80 backdrop-blur-md;
   }
 
   .btn-primary {
@@ -56,25 +64,25 @@
   }
 
   .btn-ghost {
-    @apply inline-flex items-center gap-2 rounded-full border border-line bg-card/50 px-6 py-3 text-sm font-semibold text-gray-200 transition-colors duration-300 hover:border-brand hover:text-white;
+    @apply inline-flex items-center gap-2 rounded-full border border-cardline bg-card px-6 py-3 text-sm font-semibold text-oncard transition-colors duration-300 hover:border-oncard-muted;
   }
 
   .chip {
-    @apply inline-flex items-center gap-2 rounded-full border border-line bg-card/60 px-4 py-2 text-sm text-gray-300 transition-all duration-300;
+    @apply inline-flex items-center gap-2 rounded-full border border-cardline bg-card px-4 py-2 text-sm text-oncard-soft transition-all duration-300;
   }
 
   /* Monospace "system" labels used for section kickers, tags, metrics */
   .kicker {
-    @apply font-mono text-xs uppercase tracking-widest text-accent;
+    @apply font-mono text-xs uppercase tracking-widest text-muted;
   }
 
   .tag-mono {
-    @apply font-mono text-[10px] uppercase tracking-wide text-brand-light;
+    @apply font-mono text-[10px] uppercase tracking-wide text-oncard-soft;
   }
 
   /* Stat chip with a mono value — recruiter quick-scan */
   .stat-chip {
-    @apply inline-flex items-center gap-1.5 rounded-lg border border-line bg-card/60 px-3 py-1.5 font-mono text-xs text-muted;
+    @apply inline-flex items-center gap-1.5 rounded-lg border border-cardline bg-card px-3 py-1.5 font-mono text-xs text-oncard-muted;
   }
 }
 
@@ -124,7 +132,7 @@
     height: 34rem;
     top: -10rem;
     right: -6rem;
-    background: radial-gradient(circle, rgba(124, 58, 237, 0.16), transparent 70%);
+    background: radial-gradient(circle, rgba(58, 65, 73, 0.10), transparent 70%);
     animation: tb-drift-1 26s ease-in-out infinite;
   }
   .tb-blob-2 {
@@ -132,7 +140,7 @@
     height: 30rem;
     bottom: -8rem;
     left: -6rem;
-    background: radial-gradient(circle, rgba(34, 211, 238, 0.12), transparent 70%);
+    background: radial-gradient(circle, rgba(20, 24, 30, 0.07), transparent 70%);
     animation: tb-drift-2 30s ease-in-out infinite;
   }
   @keyframes tb-drift-1 {

@@ -18,8 +18,8 @@ export default function PipelineGraph() {
     >
       <defs>
         <linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stopColor="#7c3aed" />
-          <stop offset="1" stopColor="#22d3ee" />
+          <stop offset="0" stopColor="#9aa3ae" />
+          <stop offset="1" stopColor="#eff0f2" />
         </linearGradient>
       </defs>
 
@@ -40,15 +40,15 @@ export default function PipelineGraph() {
       {/* nodes */}
       {nodes.map((n) => (
         <g key={n.label}>
-          <circle cx={n.x} cy="18" r="2.5" fill="#22d3ee" />
+          <circle cx={n.x} cy="18" r="2.5" fill="#9aa3ae" />
           <rect
             x={n.x - 14}
             y="24"
             width="58"
             height="22"
             rx="6"
-            fill="#12121a"
-            stroke={n.active ? "#7c3aed" : "#26263a"}
+            fill="#14181e"
+            stroke={n.active ? "#eff0f2" : "#2f363f"}
             strokeWidth="1"
           />
           <text
@@ -56,7 +56,7 @@ export default function PipelineGraph() {
             y="39"
             textAnchor="middle"
             fontSize="9"
-            fill="#cbd5e1"
+            fill="#ccd2d9"
             fontFamily="'JetBrains Mono', monospace"
           >
             {n.label}

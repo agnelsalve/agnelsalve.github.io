@@ -32,21 +32,21 @@ export default function Experience() {
             >
               {/* Dot */}
               <span
-                className={`absolute top-2 grid h-8 w-8 place-items-center rounded-full border border-brand bg-canvas text-xs font-bold text-brand-light left-0 ${
+                className={`absolute top-2 grid h-8 w-8 place-items-center rounded-full border border-brand bg-canvas text-xs font-bold text-brand left-0 ${
                   i % 2 === 0 ? "sm:-left-4" : "sm:-right-4 sm:left-auto"
                 }`}
               >
                 {experience.length - i}
               </span>
 
-              <div className="glass rounded-2xl p-5 transition-colors duration-300 hover:border-brand">
-                <span className="text-xs font-semibold uppercase tracking-wide text-accent">
+              <div className="glass rounded-2xl p-5 transition-colors duration-300 hover:border-oncard-muted">
+                <span className="text-xs font-semibold uppercase tracking-wide text-oncard-muted">
                   {job.period}
                 </span>
-                <h3 className="mt-1 font-display text-base font-semibold text-white">
+                <h3 className="mt-1 font-display text-base font-semibold text-oncard">
                   {job.role}
                 </h3>
-                <p className="mt-1 text-sm text-muted">{job.company}</p>
+                <p className="mt-1 text-sm text-oncard-muted">{job.company}</p>
               </div>
             </motion.div>
           ))}

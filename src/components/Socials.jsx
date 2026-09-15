@@ -18,7 +18,7 @@ export default function Socials({ className = "" }) {
           target="_blank"
           rel="noreferrer"
           aria-label={s.name}
-          className="grid h-11 w-11 place-items-center rounded-full border border-line bg-card/60 text-lg text-gray-300 transition-all duration-300 hover:-translate-y-1 hover:border-brand hover:text-white hover:shadow-glow"
+          className="grid h-11 w-11 place-items-center rounded-full border border-cardline bg-card text-lg text-oncard-soft transition-all duration-300 hover:-translate-y-1 hover:border-oncard-muted hover:text-oncard hover:shadow-glow"
         >
           {iconMap[s.icon] || (
             <img
