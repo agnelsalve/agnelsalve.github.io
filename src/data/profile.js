@@ -34,14 +34,14 @@ export const profile = {
 
 // About section — paragraphs preserved from the original site (HTML kept for bold accents).
 export const about = {
-  intro:
+ 
+  research: [ intro:
     "I'm <strong>Agnel Salve</strong> — a full-time graduate student at <strong>Northeastern University, Boston</strong> (M.S. Information Systems) with 3+ years of experience across <strong>data engineering, data science, and cloud computing</strong>.",
   paragraphs: [
     "My focus? <strong>Building scalable data systems & LLMs, intelligent pipelines, and cloud-native solutions</strong> that turn messy raw data into real business impact. My journey spans <strong>finance / insure-tech, service-based, and startup ecosystems</strong> — solving tough data problems, architecting modern systems, and helping teams make smarter, faster decisions.",
     "Previously, I led key data initiatives at <strong>Probus Insurance</strong> — building an <strong>AWS-based data warehouse</strong> from scratch, optimizing <strong>MS SQL pipelines (90% faster)</strong>, and enabling real-time insights through <strong>Power BI & AWS QuickSight.</strong> I also designed and deployed <strong>RAG-driven reporting systems</strong> and <strong>automated incentive calculation logic</strong> using SQL CTEs — aligning tech with business outcomes.",
-    "Earlier, at <strong>Reliance Jio Platforms</strong>, I worked on <strong>big data pipelines</strong> using Hadoop, Spark, Kafka, Sqoop, and Azure. I led the <strong>5G Infrastructure Analytics Project</strong>, delivered key KPIs, and contributed to the <strong>Azure Data Mesh initiative</strong> — creating stakeholder dashboards in Power BI & ZoomData. I also spent time in the <strong>Founder's Office at APMB Technologies</strong> as Chief of Staff, partnering with leadership on data-driven strategy and operational excellence.",
+    "Earlier, at <strong>Reliance Jio Platforms</strong>, I worked on <strong>big data pipelines</strong> using Hadoop, Spark, Kafka, Sqoop, and Azure. I led the <strong>5G Infrastructure Analytics Project</strong>, delivered key KPIs, and contributed to the <strong>Azure Data Mesh initiative</strong> — creating stakeholder dashboards in Power BI & ZoomData.",
   ],
-  research: [
     "🌟 SAIVA – Smart AI Virtual Assistant (Published Paper: TIJER2409018)",
     "🌟 Panderma - a multi-agent AI framework that diagnoses skin diseases (Research in progress)",
     "🌟 Design Patent: Intelligent Recruitment Management System (OCR + NLP CV Parsing)",
