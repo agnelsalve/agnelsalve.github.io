@@ -35,11 +35,11 @@ export const profile = {
 // About section — paragraphs preserved from the original site (HTML kept for bold accents).
 export const about = {
   intro:
-    "I'm <strong>Agnel Salve</strong> — a full-time graduate student at <strong>Northeastern University, Boston</strong> (M.S. Information Systems) with 3+ years of experience across <strong>data engineering, data science, and cloud computing</strong>.",
+    "I'm <strong>Agnel Salve</strong> — a data engineer with <strong>3+ years</strong> building production data platforms across insure-tech, telecom and early-stage startups, now pursuing an <strong>M.S. in Information Systems at Northeastern University, Boston</strong>.",
   paragraphs: [
-    "My focus? <strong>Building scalable data systems & LLMs, intelligent pipelines, and cloud-native solutions</strong> that turn messy raw data into real business impact. My journey spans <strong>finance / insure-tech, service-based, and startup ecosystems</strong> — solving tough data problems, architecting modern systems, and helping teams make smarter, faster decisions.",
-    "Previously, I led key data initiatives at <strong>Probus Insurance</strong> — building an <strong>AWS-based data warehouse</strong> from scratch, optimizing <strong>MS SQL pipelines (90% faster)</strong>, and enabling real-time insights through <strong>Power BI & AWS QuickSight.</strong> I also designed and deployed <strong>RAG-driven reporting systems</strong> and <strong>automated incentive calculation logic</strong> using SQL CTEs — aligning tech with business outcomes.",
-    "Earlier, at <strong>Reliance Jio Platforms</strong>, I worked on <strong>big data pipelines</strong> using Hadoop, Spark, Kafka, Sqoop, and Azure. I led the <strong>5G Infrastructure Analytics Project</strong>, delivered key KPIs, and contributed to the <strong>Azure Data Mesh initiative</strong> — creating stakeholder dashboards in Power BI & ZoomData.",
+    "I build the layer between raw data and decisions: cloud data warehouses, batch and streaming pipelines, and the BI and LLM-powered tools that sit on top. I'm most useful where the data is messy, the requirements are half-formed, and the result has to hold up in production.",
+    "At <strong>Probus Insurance</strong>, I built an <strong>AWS data warehouse from scratch</strong> and rewrote the MS SQL pipelines feeding it — cutting run time by <strong>90%</strong>. I delivered real-time reporting in <strong>Power BI and AWS QuickSight</strong>, deployed a <strong>RAG-driven reporting system</strong>, and automated the incentive calculation logic in SQL.",
+    "Earlier, at <strong>Jio Platforms (Reliance)</strong>, I worked on big-data pipelines in <strong>Hadoop, Spark, Kafka and Azure</strong>. I led the <strong>5G Infrastructure Analytics</strong> project and delivered its core KPIs, and contributed to the <strong>Azure Data Mesh</strong> initiative — building stakeholder dashboards in Power BI and ZoomData.",
   ],
   research: [
     "🌟 SAIVA – Smart AI Virtual Assistant (Published Paper: TIJER2409018)",
