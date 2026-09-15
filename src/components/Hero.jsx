@@ -30,10 +30,10 @@ export default function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <span className="chip mb-5 max-w-full border-brand/40 font-mono text-xs text-brand-light">
+          <span className="chip mb-5 max-w-full font-mono text-xs text-oncard-soft">
             {/* shrink-0 keeps the shell prompt from being squeezed and broken
                 across lines when the role string wraps on narrow screens */}
-            <span className="shrink-0 whitespace-nowrap text-accent">
+            <span className="shrink-0 whitespace-nowrap text-oncard">
               $ whoami
             </span>
             <span>› Data Engineer · AI/ML Engineer · Cloud Solutions</span>
@@ -48,7 +48,7 @@ export default function Hero() {
 
           <p className="mt-4 text-lg text-muted sm:text-xl">
             I architect{" "}
-            <span className="font-semibold text-white">{typed}</span>
+            <span className="font-semibold text-ink">{typed}</span>
             <span className="ml-0.5 inline-block h-6 w-0.5 translate-y-1 bg-accent animate-blink" />
           </p>
 
@@ -70,8 +70,8 @@ export default function Hero() {
           <div className="mt-8 flex flex-wrap gap-2">
             {stats.map((s) => (
               <span key={s.label} className="stat-chip">
-                <span className="text-brand-light">{s.value}</span>
-                <span className="text-muted/70">{s.label}</span>
+                <span className="text-oncard">{s.value}</span>
+                <span className="text-oncard-muted">{s.label}</span>
               </span>
             ))}
           </div>
@@ -92,16 +92,16 @@ export default function Hero() {
               <CornerFrame />
 
               {/* panel header */}
-              <div className="mb-3 flex items-center justify-between font-mono text-[11px] text-muted">
-                <span className="flex items-center gap-2 text-emerald-400">
-                  <span className="h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_8px_#34d399]" />
+              <div className="mb-3 flex items-center justify-between font-mono text-[11px] text-oncard-muted">
+                <span className="flex items-center gap-2 text-oncard-soft">
+                  <span className="h-2 w-2 rounded-full bg-emerald-500" />
                   online
                 </span>
                 <span>~/agnel.png</span>
               </div>
 
               {/* photo */}
-              <div className="overflow-hidden rounded-xl border border-line">
+              <div className="overflow-hidden rounded-xl border border-cardline">
                 <img
                   src={asset(profile.profileImage)}
                   alt={profile.name}
@@ -115,12 +115,12 @@ export default function Hero() {
               </div>
 
               {/* metrics footer */}
-              <div className="mt-1 flex items-center justify-between font-mono text-[11px] text-muted">
+              <div className="mt-1 flex items-center justify-between font-mono text-[11px] text-oncard-muted">
                 <span>
-                  status <span className="text-emerald-400">● deployed</span>
+                  status <span className="text-oncard-soft">● deployed</span>
                 </span>
                 <span>
-                  uptime <span className="text-gray-300">99.9%</span>
+                  uptime <span className="text-oncard-soft">99.9%</span>
                 </span>
               </div>
             </div>

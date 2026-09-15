@@ -9,7 +9,7 @@
     { "name": "Apache Airflow", "icon": "assets/images/airflow.webp" },
     { "name": "Tableau", "icon": "assets/images/tableau.webp" },
     { "name": "Git", "icon": "https://img.icons8.com/color/48/000000/git.png", "certificate": "https://www.linkedin.com/learning/certificates/45ce98a28cd44c5cd66ab163b90e7e2bd9ecb24160c6c818de625a2a37ff1223?u=74653650" },
-    { "name": "GitHub", "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png" },
+    { "name": "GitHub", "icon": "https://img.icons8.com/glyph-neue/48/14181e/github.png" },
     { "name": "R Studio", "icon": "assets/images/rprog.webp" },
     { "name": "PostgreSQL", "icon": "https://img.icons8.com/color/48/000000/postgreesql.png" },
     { "name": "MongoDB", "icon": "https://img.icons8.com/color/48/000000/mongodb.png" },

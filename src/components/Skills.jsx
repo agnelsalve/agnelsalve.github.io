@@ -22,10 +22,10 @@ export default function Skills() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.3, delay: (i % 10) * 0.03 }}
-            className="group relative flex flex-col items-center gap-2.5 rounded-2xl border border-line bg-card/50 p-4 text-center transition-all duration-300 hover:-translate-y-1 hover:border-brand hover:shadow-glow"
+            className="group relative flex flex-col items-center gap-2.5 rounded-2xl border border-cardline bg-card p-4 text-center transition-all duration-300 hover:-translate-y-1 hover:border-oncard-muted hover:shadow-glow"
           >
             {/* fixed-height slot keeps every icon vertically aligned */}
-            <div className="flex h-9 w-full items-center justify-center">
+            <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-canvas">
               <img
                 src={asset(skill.icon)}
                 alt={skill.name}
@@ -33,7 +33,7 @@ export default function Skills() {
                 className="h-8 w-8 object-contain"
               />
             </div>
-            <span className="text-sm font-medium text-gray-200">
+            <span className="text-sm font-medium text-oncard-soft">
               {skill.name}
             </span>
 
@@ -42,7 +42,7 @@ export default function Skills() {
                 href={skill.certificate}
                 target="_blank"
                 rel="noreferrer"
-                className="mt-0.5 inline-flex items-center gap-1.5 rounded-full border border-brand/50 bg-brand/15 px-3 py-1 text-[11px] font-semibold text-brand-light shadow-[0_0_16px_-6px_rgba(124,58,237,0.8)] transition-colors hover:bg-brand hover:text-white"
+                className="mt-0.5 inline-flex items-center gap-1.5 rounded-full border border-oncard-muted/40 bg-white/10 px-3 py-1 text-[11px] font-semibold text-oncard transition-colors hover:bg-oncard hover:text-ink"
                 aria-label={`${skill.name} certificate`}
                 title="View certificate"
               >

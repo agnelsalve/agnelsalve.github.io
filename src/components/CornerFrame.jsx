@@ -1,7 +1,7 @@
 // Schematic corner brackets — the "blueprint / console" accent used on panels.
 export default function CornerFrame({ className = "" }) {
   const base =
-    "pointer-events-none absolute h-3.5 w-3.5 border-accent/70";
+    "pointer-events-none absolute h-3.5 w-3.5 border-oncard-muted/60";
   return (
     <span className={`pointer-events-none absolute inset-0 ${className}`} aria-hidden="true">
       <span className={`${base} left-0 top-0 rounded-tl-md border-l-2 border-t-2`} />

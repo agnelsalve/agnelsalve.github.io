@@ -22,9 +22,9 @@ export default function Education() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-60px" }}
             transition={{ duration: 0.45, delay: i * 0.1 }}
-            className="glass flex flex-col gap-5 rounded-2xl p-6 transition-colors duration-300 hover:border-brand sm:flex-row sm:items-center"
+            className="glass flex flex-col gap-5 rounded-2xl p-6 transition-colors duration-300 hover:border-oncard-muted sm:flex-row sm:items-center"
           >
-            <div className="grid h-20 w-20 shrink-0 place-items-center overflow-hidden rounded-xl border border-line bg-white/5">
+            <div className="grid h-20 w-20 shrink-0 place-items-center overflow-hidden rounded-xl border border-line bg-canvas">
               <img
                 src={asset(edu.image)}
                 alt={edu.school}
@@ -35,12 +35,12 @@ export default function Education() {
               />
             </div>
             <div>
-              <h3 className="font-display text-lg font-semibold text-white">
+              <h3 className="font-display text-lg font-semibold text-oncard">
                 {edu.degree}
               </h3>
-              <p className="mt-1 text-sm text-brand-light">{edu.school}</p>
-              <p className="text-xs text-muted">{edu.period}</p>
-              <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-gray-300">
+              <p className="mt-1 text-sm text-oncard-soft">{edu.school}</p>
+              <p className="text-xs text-oncard-muted">{edu.period}</p>
+              <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-oncard-soft">
                 {edu.points.map((pt, j) => (
                   <li key={j}>{pt}</li>
                 ))}

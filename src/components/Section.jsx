@@ -14,7 +14,7 @@ export default function Section({ id, icon, kicker, title, highlight, subtitle, 
         >
           {kicker && <span className="kicker mb-3">{kicker}</span>}
           <h2 className="flex items-center gap-3 font-display text-3xl font-bold tracking-tight sm:text-4xl">
-            {icon && <span className="text-brand-light">{icon}</span>}
+            {icon && <span className="text-brand">{icon}</span>}
             <span>
               {title} <span className="gradient-text">{highlight}</span>
             </span>

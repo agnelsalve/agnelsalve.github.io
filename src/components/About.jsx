@@ -23,7 +23,7 @@ export default function About() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="space-y-4 text-[15px] leading-relaxed text-gray-300 lg:col-span-3"
+          className="space-y-4 text-[15px] leading-relaxed text-ink-soft lg:col-span-3"
         >
           <p {...html(about.intro)} />
           {about.paragraphs.map((p, i) => (
@@ -31,17 +31,17 @@ export default function About() {
           ))}
 
           <div className="glass rounded-2xl p-5">
-            <h3 className="mb-3 font-display text-lg font-semibold text-white">
+            <h3 className="mb-3 font-display text-lg font-semibold text-oncard">
               🧪 Key Projects & Research
             </h3>
-            <ul className="space-y-2 text-sm text-gray-300">
+            <ul className="space-y-2 text-sm text-oncard-soft">
               {about.research.map((r, i) => (
                 <li key={i}>{r}</li>
               ))}
             </ul>
           </div>
 
-          <p className="pt-2 font-semibold text-brand-light">
+          <p className="pt-2 font-semibold text-brand">
             {about.closer}
           </p>
         </motion.div>
@@ -55,10 +55,10 @@ export default function About() {
           className="lg:col-span-2"
         >
           <div className="glass sticky top-24 rounded-2xl p-6">
-            <h3 className="mb-4 font-display text-lg font-semibold text-white">
+            <h3 className="mb-4 font-display text-lg font-semibold text-oncard">
               💭 Let's connect if you're
             </h3>
-            <ul className="space-y-3 text-sm text-gray-300">
+            <ul className="space-y-3 text-sm text-oncard-soft">
               {about.connect.map((c, i) => (
                 <li key={i} className="flex gap-2">
                   {c}
@@ -66,29 +66,29 @@ export default function About() {
               ))}
             </ul>
 
-            <div className="my-5 h-px bg-line" />
+            <div className="my-5 h-px bg-cardline" />
 
             <ul className="space-y-3 text-sm">
-              <li className="flex items-center gap-3 text-gray-300">
-                <FaEnvelope className="text-brand-light" />
+              <li className="flex items-center gap-3 text-oncard-soft">
+                <FaEnvelope className="text-oncard-muted" />
                 <a
                   href={`mailto:${profile.contact.email}`}
-                  className="hover:text-white"
+                  className="hover:text-oncard"
                 >
                   {profile.contact.email}
                 </a>
               </li>
-              <li className="flex items-center gap-3 text-gray-300">
-                <FaEnvelope className="text-brand-light" />
+              <li className="flex items-center gap-3 text-oncard-soft">
+                <FaEnvelope className="text-oncard-muted" />
                 <a
                   href={`mailto:${profile.contact.personalEmail}`}
-                  className="hover:text-white"
+                  className="hover:text-oncard"
                 >
                   {profile.contact.personalEmail}
                 </a>
               </li>
-              <li className="flex items-center gap-3 text-gray-300">
-                <FaMapMarkerAlt className="text-brand-light" />
+              <li className="flex items-center gap-3 text-oncard-soft">
+                <FaMapMarkerAlt className="text-oncard-muted" />
                 {profile.contact.location}
               </li>
             </ul>
